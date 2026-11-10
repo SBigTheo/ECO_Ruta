@@ -7,6 +7,9 @@ public class GestorNivel : MonoBehaviour
     public GameObject pantallaNivelSuperado;
     public GameObject pantallaDerrota;
 
+    [Header("Configuración de Niveles")]
+    public int indiceSiguienteNivel = 1;
+
     private bool nivelTerminado = false;
 
     void Start()
@@ -37,5 +40,11 @@ public class GestorNivel : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void IrAlSiguienteNivel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(indiceSiguienteNivel);
     }
 }
