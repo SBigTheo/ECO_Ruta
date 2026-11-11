@@ -3122,7 +3122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GestorNivel
   pantallaNivelSuperado: {fileID: 1710916137}
   pantallaDerrota: {fileID: 1631686628}
-  indiceSiguienteNivel: 1
+  indiceSiguienteNivel: 2
 --- !u!4 &1426699009
 Transform:
   m_ObjectHideFlags: 0
