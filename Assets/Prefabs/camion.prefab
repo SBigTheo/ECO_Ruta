@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ControladorCamion
   velocidadMaxima: 7
   sensibilidad: 3
-  anguloMaximoInclinacion: 30
+  anguloMaximoInclinacion: 25
   usarLimitesDePantalla: 0
   limiteX: 8
   limiteY: 4.5
