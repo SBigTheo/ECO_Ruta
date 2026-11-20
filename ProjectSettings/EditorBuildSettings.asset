@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel3.unity
     guid: 9a8da73c56c781e41b8c647d55fe2edc
+  - enabled: 1
+    path: Assets/Scenes/TutorialFabio.unity
+    guid: 40162b323e8a54240a23dcee2651249d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

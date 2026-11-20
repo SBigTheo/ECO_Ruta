@@ -22,7 +22,7 @@ public class GestorNivel : MonoBehaviour
         if (pantallaDerrota != null) pantallaDerrota.SetActive(false);
         if (panelPausa != null) panelPausa.SetActive(false);
 
-        camion = FindObjectOfType<ControladorCamion>();
+        camion = FindFirstObjectByType<ControladorCamion>();
     }
 
     public void GanoNivel()

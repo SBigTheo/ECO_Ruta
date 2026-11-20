@@ -10,7 +10,7 @@ public class CentroReciclaje : MonoBehaviour
 
             if (sistema != null && sistema.TieneTodosLosResiduos())
             {
-                GestorNivel gestor = FindObjectOfType<GestorNivel>();
+                GestorNivel gestor = FindFirstObjectByType<GestorNivel>();
                 if (gestor != null)
                 {
                     gestor.GanoNivel();

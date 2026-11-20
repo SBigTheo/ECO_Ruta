@@ -12,7 +12,7 @@ public class Peaton : MonoBehaviour
         {
             yaChocado = true;
 
-            GestorNivel gestor = FindObjectOfType<GestorNivel>();
+            GestorNivel gestor = FindFirstObjectByType<GestorNivel>();
             if (gestor != null)
             {
                 gestor.PerdioNivel();
