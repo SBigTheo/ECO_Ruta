@@ -1249,6 +1249,7 @@ GameObject:
   - component: {fileID: 692787266}
   - component: {fileID: 692787265}
   - component: {fileID: 692787264}
+  - component: {fileID: 692787267}
   m_Layer: 5
   m_Name: botonReintentar
   m_TagString: Untagged
@@ -1370,6 +1371,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692787262}
   m_CullTransparentMesh: 1
+--- !u!114 &692787267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692787262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5316c7538ee23468ab745223c4ab7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &698627293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1956,6 +1969,7 @@ GameObject:
   - component: {fileID: 1016173155}
   - component: {fileID: 1016173154}
   - component: {fileID: 1016173153}
+  - component: {fileID: 1016173156}
   m_Layer: 5
   m_Name: botonSiguienteNivel
   m_TagString: Untagged
@@ -2077,6 +2091,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016173151}
   m_CullTransparentMesh: 1
+--- !u!114 &1016173156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016173151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5316c7538ee23468ab745223c4ab7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &1023168177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2618,6 +2644,7 @@ GameObject:
   - component: {fileID: 1108981914}
   - component: {fileID: 1108981913}
   - component: {fileID: 1108981912}
+  - component: {fileID: 1108981915}
   m_Layer: 5
   m_Name: botonReanudar
   m_TagString: Untagged
@@ -2739,6 +2766,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108981910}
   m_CullTransparentMesh: 1
+--- !u!114 &1108981915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108981910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5316c7538ee23468ab745223c4ab7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &1136471064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,6 +3037,7 @@ GameObject:
   - component: {fileID: 1295966758}
   - component: {fileID: 1295966757}
   - component: {fileID: 1295966756}
+  - component: {fileID: 1295966759}
   m_Layer: 5
   m_Name: botonPausa
   m_TagString: Untagged
@@ -3119,6 +3159,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295966754}
   m_CullTransparentMesh: 1
+--- !u!114 &1295966759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295966754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5316c7538ee23468ab745223c4ab7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &1330667696
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,6 +3594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426699009}
   - component: {fileID: 1426699008}
+  - component: {fileID: 1426699010}
   m_Layer: 0
   m_Name: GestorNivel
   m_TagString: Untagged
@@ -3564,7 +3617,8 @@ MonoBehaviour:
   pantallaNivelSuperado: {fileID: 1710916137}
   pantallaDerrota: {fileID: 1519099029}
   panelPausa: {fileID: 1734746294}
-  indiceSiguienteNivel: 0
+  nombreSiguienteNivel: MenuPrincipal
+  nombreMenu: MenuPrincipal
 --- !u!4 &1426699009
 Transform:
   m_ObjectHideFlags: 0
@@ -3580,6 +3634,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1426699010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426699007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa3294134e1ef946bbc2afb483ef5c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicaEscena
+  clipMusica: {fileID: 8300000, guid: 84258f17b1fdfcc43b11781d2c638967, type: 3}
 --- !u!1 &1512512780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4493,6 +4560,7 @@ GameObject:
   - component: {fileID: 1770225460}
   - component: {fileID: 1770225459}
   - component: {fileID: 1770225458}
+  - component: {fileID: 1770225461}
   m_Layer: 5
   m_Name: botonMenu
   m_TagString: Untagged
@@ -4614,6 +4682,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770225456}
   m_CullTransparentMesh: 1
+--- !u!114 &1770225461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770225456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5316c7538ee23468ab745223c4ab7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &1813406843
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,12 @@ public class Residuo : MonoBehaviour
             if (sistema != null)
             {
                 sistema.Recolectar();
+
+                if (GestorSFX.instancia != null)
+                {
+                    GestorSFX.instancia.SonidoRecoleccion();
+                }
+
                 Destroy(gameObject);
             }
         }

@@ -12,6 +12,11 @@ public class Peaton : MonoBehaviour
         {
             yaChocado = true;
 
+            if (GestorSFX.instancia != null)
+            {
+                GestorSFX.instancia.SonidoAtropello();
+            }
+
             GestorNivel gestor = FindFirstObjectByType<GestorNivel>();
             if (gestor != null)
             {

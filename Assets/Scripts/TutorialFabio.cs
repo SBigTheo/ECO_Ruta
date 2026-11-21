@@ -127,6 +127,13 @@ public class TutorialFabio : MonoBehaviour
             audioSource.Stop();
         }
 
-        SceneManager.LoadScene(nombreSiguienteEscena);
+        if (GestorTransicion.instancia != null)
+        {
+            GestorTransicion.instancia.CambiarEscena(nombreSiguienteEscena);
+        }
+        else
+        {
+            SceneManager.LoadScene(nombreSiguienteEscena);
+        }
     }
 }

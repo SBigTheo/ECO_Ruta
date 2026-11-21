@@ -9,7 +9,8 @@ public class GestorNivel : MonoBehaviour
     public GameObject panelPausa;
 
     [Header("Configuración de Niveles")]
-    public int indiceSiguienteNivel = 1;
+    public string nombreSiguienteNivel = "Nivel2";
+    public string nombreMenu = "MenuPrincipal";
 
     private bool nivelTerminado = false;
     private bool estaPausado = false;
@@ -30,6 +31,11 @@ public class GestorNivel : MonoBehaviour
         if (nivelTerminado) return;
         nivelTerminado = true;
 
+        if (GestorSFX.instancia != null)
+        {
+            GestorSFX.instancia.SonidoVictoria();
+        }
+
         if (pantallaNivelSuperado != null) pantallaNivelSuperado.SetActive(true);
         Time.timeScale = 0f;
     }
@@ -39,6 +45,11 @@ public class GestorNivel : MonoBehaviour
         if (nivelTerminado) return;
         nivelTerminado = true;
 
+        if (GestorSFX.instancia != null)
+        {
+            GestorSFX.instancia.SonidoDerrota();
+        }
+
         if (pantallaDerrota != null) pantallaDerrota.SetActive(true);
         Time.timeScale = 0f;
     }
@@ -46,19 +57,32 @@ public class GestorNivel : MonoBehaviour
     public void ReiniciarNivel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        string escenaActual = SceneManager.GetActiveScene().name;
+
+        if (GestorTransicion.instancia != null)
+            GestorTransicion.instancia.CambiarEscena(escenaActual);
+        else
+            SceneManager.LoadScene(escenaActual);
     }
 
     public void IrAlSiguienteNivel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(indiceSiguienteNivel);
+
+        if (GestorTransicion.instancia != null)
+            GestorTransicion.instancia.CambiarEscena(nombreSiguienteNivel);
+        else
+            SceneManager.LoadScene(nombreSiguienteNivel);
     }
 
     public void VolverAlMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+
+        if (GestorTransicion.instancia != null)
+            GestorTransicion.instancia.CambiarEscena(nombreMenu);
+        else
+            SceneManager.LoadScene(nombreMenu);
     }
 
     public void AlternarPausa()
@@ -71,17 +95,22 @@ public class GestorNivel : MonoBehaviour
         {
             Time.timeScale = 0f;
             if (panelPausa != null) panelPausa.SetActive(true);
+
+            if (GestorAudio.instancia != null)
+                GestorAudio.instancia.PausarMusica();
         }
         else
         {
             Time.timeScale = 1f;
             if (panelPausa != null) panelPausa.SetActive(false);
 
-            // Recalibrar al reanudar
             if (camion != null)
             {
                 camion.Calibrar();
             }
+
+            if (GestorAudio.instancia != null)
+                GestorAudio.instancia.ReanudarMusica();
         }
     }
 }

@@ -17,7 +17,15 @@ public class MenuManager : MonoBehaviour
     public void Jugar()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(nombreEscena);
+
+        if (GestorTransicion.instancia != null)
+        {
+            GestorTransicion.instancia.CambiarEscena(nombreEscena);
+        }
+        else
+        {
+            SceneManager.LoadScene(nombreEscena);
+        }
     }
 
     [Preserve]
