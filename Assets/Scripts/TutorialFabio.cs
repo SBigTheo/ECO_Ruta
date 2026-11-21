@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class TutorialFabio : MonoBehaviour
 {
-    [Header("UI - Burbujas de Diálogo")]
+    [Header("UI - Burbujas de Dialogo")]
     public GameObject[] burbujasDialogo;
 
     [Header("Fabio")]
@@ -27,17 +28,36 @@ public class TutorialFabio : MonoBehaviour
 
         if (burbujasDialogo.Length == 0)
         {
-            Debug.LogError("No hay burbujas de diálogo configuradas.");
+            Debug.LogError("No hay burbujas de dialogo configuradas.");
             return;
         }
 
         MostrarBurbuja(0);
     }
 
-    public void SiguienteDialogo()
+    void Update()
     {
         if (tutorialTerminado) return;
 
+        bool toqueDetectado = false;
+
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+        {
+            toqueDetectado = true;
+        }
+        else if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            toqueDetectado = true;
+        }
+
+        if (toqueDetectado)
+        {
+            SiguienteDialogo();
+        }
+    }
+
+    void SiguienteDialogo()
+    {
         if (indiceActual < burbujasDialogo.Length && burbujasDialogo[indiceActual] != null)
         {
             burbujasDialogo[indiceActual].SetActive(false);
