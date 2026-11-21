@@ -13,11 +13,16 @@ public class TutorialFabio : MonoBehaviour
     public Sprite[] spritesFabio;
     public int[] spriteIndexPorBurbuja;
 
+    [Header("Audios de Dialogo")]
+    public AudioSource audioSource;
+    public AudioClip[] audiosBurbuja;
+
     [Header("Escena Siguiente")]
     public string nombreSiguienteEscena = "Nivel1";
 
     private int indiceActual = 0;
     private bool tutorialTerminado = false;
+    private bool[] audioYaReproducido;
 
     void Start()
     {
@@ -32,6 +37,7 @@ public class TutorialFabio : MonoBehaviour
             return;
         }
 
+        audioYaReproducido = new bool[burbujasDialogo.Length];
         MostrarBurbuja(0);
     }
 
@@ -63,6 +69,11 @@ public class TutorialFabio : MonoBehaviour
             burbujasDialogo[indiceActual].SetActive(false);
         }
 
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+
         indiceActual++;
 
         if (indiceActual >= burbujasDialogo.Length)
@@ -90,11 +101,32 @@ public class TutorialFabio : MonoBehaviour
                 imagenFabio.sprite = spritesFabio[spriteIdx];
             }
         }
+
+        ReproducirAudioBurbuja(index);
+    }
+
+    void ReproducirAudioBurbuja(int index)
+    {
+        if (audioSource == null || audiosBurbuja.Length == 0) return;
+        if (index >= audiosBurbuja.Length || audiosBurbuja[index] == null) return;
+
+        if (!audioYaReproducido[index])
+        {
+            audioSource.clip = audiosBurbuja[index];
+            audioSource.Play();
+            audioYaReproducido[index] = true;
+        }
     }
 
     void TerminarTutorial()
     {
         tutorialTerminado = true;
+
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+        }
+
         SceneManager.LoadScene(nombreSiguienteEscena);
     }
 }
