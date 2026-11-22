@@ -95,9 +95,6 @@ public class GestorNivel : MonoBehaviour
         {
             Time.timeScale = 0f;
             if (panelPausa != null) panelPausa.SetActive(true);
-
-            if (GestorAudio.instancia != null)
-                GestorAudio.instancia.PausarMusica();
         }
         else
         {
@@ -108,9 +105,6 @@ public class GestorNivel : MonoBehaviour
             {
                 camion.Calibrar();
             }
-
-            if (GestorAudio.instancia != null)
-                GestorAudio.instancia.ReanudarMusica();
         }
     }
 }
