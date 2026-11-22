@@ -4519,7 +4519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GestorNivel
   pantallaNivelSuperado: {fileID: 1710916137}
   pantallaDerrota: {fileID: 1519099029}
-  panelPausa: {fileID: 0}
+  panelPausa: {fileID: 42307960}
   nombreSiguienteNivel: MenuPrincipal
   nombreMenu: MenuPrincipal
 --- !u!4 &1426699009
