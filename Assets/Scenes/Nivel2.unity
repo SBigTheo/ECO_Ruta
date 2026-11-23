@@ -1111,6 +1111,10 @@ PrefabInstance:
       value: reciclable (3)
       objectReference: {fileID: 0}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6611063975212234208, guid: 1ce1b4740f393bc48b1c791d10263459, type: 3}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -2295,6 +2299,10 @@ PrefabInstance:
       value: reciclable (4)
       objectReference: {fileID: 0}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8634488143101781720, guid: b431d91375872ac4d97dd1eceb1076ac, type: 3}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -2957,6 +2965,10 @@ PrefabInstance:
       value: reciclable (1)
       objectReference: {fileID: 0}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6611063975212234208, guid: 1ce1b4740f393bc48b1c791d10263459, type: 3}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -3578,6 +3590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: reciclable (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3058745686700435456, guid: 77c50ca79a37add40b8a7e26aae9c1cd, type: 3}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -4490,6 +4506,10 @@ PrefabInstance:
       value: reciclable
       objectReference: {fileID: 0}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3058745686700435456, guid: 77c50ca79a37add40b8a7e26aae9c1cd, type: 3}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -5175,6 +5195,10 @@ PrefabInstance:
       value: reciclable (5)
       objectReference: {fileID: 0}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8634488143101781720, guid: b431d91375872ac4d97dd1eceb1076ac, type: 3}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -5553,6 +5577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: reciclable (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6611063975212234208, guid: 1ce1b4740f393bc48b1c791d10263459, type: 3}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -6834,6 +6862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: reciclable (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3058745686700435456, guid: 77c50ca79a37add40b8a7e26aae9c1cd, type: 3}
     - target: {fileID: 9098827389732841563, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
