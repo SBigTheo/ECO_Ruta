@@ -21,6 +21,7 @@ public class MovimientoPeaton : MonoBehaviour
 
         transform.position = puntoA.position;
         destinoActual = puntoB.position;
+        GirarHaciaDestino();
     }
 
     void Update()
@@ -47,7 +48,11 @@ public class MovimientoPeaton : MonoBehaviour
     void GirarHaciaDestino()
     {
         Vector2 direccion = (destinoActual - (Vector2)transform.position).normalized;
+
         float angulo = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
+
+        angulo -= 90f;
+
         transform.rotation = Quaternion.Euler(0f, 0f, angulo);
     }
 }

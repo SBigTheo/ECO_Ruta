@@ -667,6 +667,22 @@ PrefabInstance:
       value: peaton (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1566582788184704361, guid: 287cefd65b2642a4180c507492b8244e, type: 3}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -681,7 +697,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1862817579}
   m_SourcePrefab: {fileID: 100100000, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
 --- !u!1 &199293981
 GameObject:
@@ -913,6 +932,22 @@ PrefabInstance:
       value: peaton (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2185685408097839225, guid: 5faf51863236fad4f8e48c68b5678425, type: 3}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -927,7 +962,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1471764261}
   m_SourcePrefab: {fileID: 100100000, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
 --- !u!1 &253608180
 GameObject:
@@ -1134,6 +1172,22 @@ PrefabInstance:
       value: peaton (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8446968958251110041, guid: ce4f7b58a69db03438e5f7eb1e1d859b, type: 3}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -1148,8 +1202,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 320540522}
   m_SourcePrefab: {fileID: 100100000, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+--- !u!1 &320540521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+  m_PrefabInstance: {fileID: 320540520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &320540522
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320540521}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8cb0247881e76bb40ad210aa1fa3ae23, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &323533916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +1874,22 @@ PrefabInstance:
       value: peaton
       objectReference: {fileID: 0}
     - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8841387231992046268, guid: 93a54c7b05d1208488d66e5c694e0e68, type: 3}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925566454936044176, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -1804,7 +1904,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971603450}
   m_SourcePrefab: {fileID: 100100000, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
 --- !u!1 &508377592
 GameObject:
@@ -3484,6 +3587,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+--- !u!1 &971603444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+  m_PrefabInstance: {fileID: 461925726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &971603450
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971603444}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f4bcfbbee1698746bca32c5a55443cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1016173151
 GameObject:
   m_ObjectHideFlags: 0
@@ -5053,6 +5183,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90223ceb5d6c19542ba7a03278d91b97, type: 3}
+--- !u!1 &1471764255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+  m_PrefabInstance: {fileID: 243957310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1471764261
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471764255}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: abcce73be7784c24eaa9dda2b426cc44, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1550545569
 GameObject:
   m_ObjectHideFlags: 0
@@ -6053,6 +6210,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1862817573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5688748212814502518, guid: 8993d3e75fc0e064cbceb59b5ffca144, type: 3}
+  m_PrefabInstance: {fileID: 169201028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1862817579
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862817573}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7ecafa83f4efaad46a061e5b0a7c0185, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1902269260
 GameObject:
   m_ObjectHideFlags: 0

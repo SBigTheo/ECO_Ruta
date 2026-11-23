@@ -5,6 +5,15 @@ TextureImporter:
   - first:
       213: -1566582788184704361
     second: SpriteCaminar1 (20261122021240)_0
+  - first:
+      213: -383374159798377515
+    second: SpriteCaminar1 (20261122021240)_1
+  - first:
+      213: 5049443095836588320
+    second: SpriteCaminar1 (20261122021240)_2
+  - first:
+      213: 8274823851446231105
+    second: SpriteCaminar1 (20261122021240)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,12 +125,12 @@ TextureImporter:
       name: SpriteCaminar1 (20261122021240)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 879
-        height: 1826
+        x: 287
+        y: 1391
+        width: 298
+        height: 374
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +143,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SpriteCaminar1 (20261122021240)_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 958
+        width: 282
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3672d9b3bfdaaf0800000000000000
+      internalID: -383374159798377515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteCaminar1 (20261122021240)_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 520
+        width: 298
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02973e81eb9331640800000000000000
+      internalID: 5049443095836588320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteCaminar1 (20261122021240)_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 36
+        width: 286
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140e164737416d270800000000000000
+      internalID: 8274823851446231105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a0028e18659258e49aceb23084705e2d
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +221,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       SpriteCaminar1 (20261122021240)_0: -1566582788184704361
+      SpriteCaminar1 (20261122021240)_1: -383374159798377515
+      SpriteCaminar1 (20261122021240)_2: 5049443095836588320
+      SpriteCaminar1 (20261122021240)_3: 8274823851446231105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -5,6 +5,15 @@ TextureImporter:
   - first:
       213: 8446968958251110041
     second: SpriteCaminar3 (20261122021704)_0
+  - first:
+      213: 3105975832348397290
+    second: SpriteCaminar3 (20261122021704)_1
+  - first:
+      213: 2823211932174160037
+    second: SpriteCaminar3 (20261122021704)_2
+  - first:
+      213: 5430659387120975607
+    second: SpriteCaminar3 (20261122021704)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,10 +125,10 @@ TextureImporter:
       name: SpriteCaminar3 (20261122021704)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 879
-        height: 1826
+        x: 286
+        y: 1391
+        width: 300
+        height: 375
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,6 +139,72 @@ TextureImporter:
       bones: []
       spriteID: 99e0f497389a93570800000000000000
       internalID: 8446968958251110041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteCaminar3 (20261122021704)_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 957
+        width: 284
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee03183094aa1b20800000000000000
+      internalID: 3105975832348397290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteCaminar3 (20261122021704)_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 520
+        width: 299
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a092e65b401e2720800000000000000
+      internalID: 2823211932174160037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteCaminar3 (20261122021704)_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 35
+        width: 288
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe7c7190f39d5b40800000000000000
+      internalID: 5430659387120975607
       vertices: []
       indices: 
       edges: []
@@ -149,6 +224,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       SpriteCaminar3 (20261122021704)_0: 8446968958251110041
+      SpriteCaminar3 (20261122021704)_1: 3105975832348397290
+      SpriteCaminar3 (20261122021704)_2: 2823211932174160037
+      SpriteCaminar3 (20261122021704)_3: 5430659387120975607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
